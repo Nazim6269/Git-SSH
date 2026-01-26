@@ -32,8 +32,9 @@ ssh-keygen -t ed25519 -C "your-email@gmail.com"
 Press Enter for all prompts.
 
 ### 3. Start SSH agent and add your key
-eval "$(ssh-agent -s)"
 ```
+
+eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 
 ```
